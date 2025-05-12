@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+#botonAuxilio {
+    padding: 20px 40px;
+    font-size: 1.5em;
+    background-color: #dc3545; /* Rojo de emergencia */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+#botonAuxilio:hover {
+    background-color: #c82333;
+}
+
+/* Media query para dispositivos más pequeños */
+@media (max-width: 600px) {
+    #botonAuxilio {
+        font-size: 1.2em;
+        padding: 15px 30px;
+    }
+}
